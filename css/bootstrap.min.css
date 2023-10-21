@@ -767,11 +767,11 @@ progress {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-
+    align-self: center;
     margin-top: calc(var(--bs-gutter-y)*-1);
     margin-right: calc(var(--bs-gutter-x)/-1);
     margin-left: calc(var(--bs-gutter-x)/-1);
-    padding-left: 25%;
+
     padding-bottom: 5%;
 }
 
@@ -4590,7 +4590,7 @@ fieldset:disabled .btn {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: .5rem;
+
     padding-bottom: .5rem
 }
 
@@ -4608,11 +4608,12 @@ fieldset:disabled .btn {
 }
 
 .navbar-brand {
-    padding-top: .18125rem;
+    padding-top: 1px;
     padding-bottom: .88125rem;
-
+    height: 80px;
+    width: 70px;
     margin-right: 1rem;
-    font-size: 5.25rem;
+    font-size: 1.25rem;
     white-space: nowrap
 }
 
@@ -8466,7 +8467,7 @@ fieldset:disabled .btn {
 }
 
 .text-info {
-    color: #08bfe4 !important
+    color: #1363C6 !important
 }
 
 .text-warning {
